@@ -34,7 +34,7 @@ jobs:
            result-encoding: string
           
       - name: Build Angular App
-        run: npm run build -- --configuration=production
+        run: npm run build
         
       - name: Build And Deploy
         id: builddeploy
